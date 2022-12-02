@@ -1,8 +1,8 @@
 import React from "react";
 import HeaderSection from "./styles";
 import logo from "../../assets/logo-white.png";
-import { navLinks } from "../../constants";
-import { NavLink } from "react-router-dom";
+import { navLinks, AppRoutes } from "../../constants";
+import { NavLink, Link } from "react-router-dom";
 import { AiOutlineMenu } from "react-icons/ai";
 import { useGlobalContext } from "../../store";
 import Container from "../utilities/Container.styles";
@@ -16,7 +16,9 @@ const Header = () => {
       <Container>
         <nav className="navbar">
           <div className="logo">
-            <img src={logo} alt="logo" />
+            <Link to={AppRoutes.home}>
+              <img src={logo} alt="logo" />
+            </Link>
           </div>
 
           <ul>
