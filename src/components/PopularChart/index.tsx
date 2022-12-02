@@ -1,11 +1,10 @@
 import React from "react";
 import Container from "../utilities/Container.styles";
 import Section from "./styles";
-// import { Link } from "react-router-dom";
-// import { AppRoutes } from "../../constants";
 import { MarketOverview } from "react-ts-tradingview-widgets";
 import { Button } from "../";
 import { mOTabs } from "../../constants";
+import "aos/dist/aos.css";
 const tabs = mOTabs;
 const PopularChart = () => {
   return (
@@ -35,7 +34,14 @@ const PopularChart = () => {
           ></MarketOverview>
         </Container>
       </div>
-      <div className="btn-container">
+      <div
+        className="btn-container"
+        data-aos="fade-down"
+        data-aos-duration="1000"
+        data-aos-delay="1600"
+        data-aos-mirror="true"
+        data-aos-once="true"
+      >
         <Button className="view-all">View All</Button>
       </div>
     </Section>

@@ -16,7 +16,12 @@ const Hero = () => {
         data. Unlimited Data. Low Latency. Transparent Pricing. Realtime Data.
       </p>
 
-      <div data-aos="zoom-in" data-aos-duration="1000" data-aos-delay="1000">
+      <div
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="1000"
+        data-aos-once="true"
+      >
         <Button className="get-started">Get Started</Button>
       </div>
     </HeroSection>

@@ -19,8 +19,26 @@ const HeroSection = styled.div`
     margin: 0.6rem auto 2.5rem;
   }
 
-  .get-started {
+  /* .get-started {
     padding: 1rem 4rem;
+  } */
+
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    p {
+      font-size: 0.875rem;
+      max-width: 470px;
+      margin-bottom: 1.7rem;
+    }
+  }
+
+  @media (max-width: 425px) {
+    p {
+      max-width: 350px;
+    }
   }
 `;
 

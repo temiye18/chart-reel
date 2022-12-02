@@ -16,8 +16,15 @@ const Section = styled.section`
     align-items: center;
     justify-content: center;
 
-    .view-all {
+    /* .view-all {
       padding: 1rem 4rem;
+    } */
+  }
+
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.5rem;
+      padding-left: 1.3rem;
     }
   }
 `;

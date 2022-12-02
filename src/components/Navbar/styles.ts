@@ -1,19 +1,6 @@
 import styled from "styled-components";
-import bg from "../../assets/bg.png";
-import bgMobile from "../../assets/mobile-bg.png";
-
-const HeaderSection = styled.header`
+const Nav = styled.header`
   padding: 1rem 0;
-  min-height: 700px;
-  background: url(${bg}) no-repeat center center/cover;
-  @media (max-width: 768px) {
-    min-height: 570px;
-  }
-
-  @media (max-width: 425px) {
-    background: url(${bgMobile}) no-repeat center center/cover;
-    min-height: 500px;
-  }
   .navbar {
     /* position: fixed;
     top: 0;
@@ -55,7 +42,7 @@ const HeaderSection = styled.header`
         }
       }
 
-      @media (max-width: 820px) {
+      @media (max-width: 768px) {
         display: none;
       }
     }
@@ -73,4 +60,4 @@ const HeaderSection = styled.header`
   }
 `;
 
-export default HeaderSection;
+export default Nav;
