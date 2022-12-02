@@ -4,10 +4,19 @@
   --white: #fff;
   --primary-color: #131722;
   --secondary-color: #a259ff;
+  --text-color: #898ca9;
   --inter: "Inter", sans-serif;
   --inter-400: 400;
   --inter-600: 600;
   --inter-900: 900;
+  --heading-large: 3.3rem;
+  --heading-line-height: 130%;
+  --text-line-height: 150%;
+  --heading-medium: 1.5rem;
+  --text-small: 0.875rem;
+  --text-width-large: 689px;
+  --text-width-medium: 470px;
+  --text-width-small: 350px;
 }
 body {
   color: var(--white);

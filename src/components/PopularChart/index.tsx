@@ -5,7 +5,6 @@ import { MarketOverview } from "react-ts-tradingview-widgets";
 import { Button } from "../";
 import { mOTabs } from "../../constants";
 import "aos/dist/aos.css";
-const tabs = mOTabs;
 const PopularChart = () => {
   return (
     <Section>
@@ -29,7 +28,7 @@ const PopularChart = () => {
             belowLineFillColorFallingBottom="rgba(41, 98, 255, 0)"
             symbolActiveColor="rgba(41, 98, 255, 0.12)"
             width="100%"
-            tabs={tabs}
+            tabs={mOTabs}
             showFloatingTooltip={true}
           ></MarketOverview>
         </Container>

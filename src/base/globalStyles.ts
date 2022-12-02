@@ -21,4 +21,8 @@ a {
 }
 
 img { max-width: 100%; }
+
+.chart {
+    margin: 7rem 0 4rem;
+}
 `;

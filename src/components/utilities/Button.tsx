@@ -4,7 +4,7 @@ import { AppRoutes } from "../../constants";
 import LinkBtn from "./Button.styles";
 
 interface ButtonProps {
-  className: string;
+  className?: string;
   children: React.ReactNode;
 }
 
