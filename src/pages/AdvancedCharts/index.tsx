@@ -7,7 +7,7 @@ import { Section, FlexContainer } from "./styles";
 const AdvancedCharts = () => {
   return (
     <Section>
-      <CategoryHeader text="CRYPTO" animation="slide-left" duration="2000" />
+      <CategoryHeader text="CRYPTO" animation="zoom-in" duration="1300" />
 
       <Container>
         <FlexContainer>
@@ -17,7 +17,7 @@ const AdvancedCharts = () => {
         </FlexContainer>
       </Container>
 
-      <CategoryHeader text="FOREX" animation="slide-left" duration="2000" />
+      <CategoryHeader text="FOREX" animation="zoom-in" duration="1300" />
 
       <Container>
         <FlexContainer>
@@ -27,7 +27,7 @@ const AdvancedCharts = () => {
         </FlexContainer>
       </Container>
 
-      <CategoryHeader text="STOCK" animation="slide-left" duration="2000" />
+      <CategoryHeader text="STOCK" animation="zoom-in" duration="1300" />
 
       <Container>
         <FlexContainer>
@@ -37,7 +37,7 @@ const AdvancedCharts = () => {
         </FlexContainer>
       </Container>
 
-      <CategoryHeader text="FUTURES" animation="slide-left" duration="2000" />
+      <CategoryHeader text="FUTURES" animation="zoom-in" duration="1300" />
 
       <Container>
         <FlexContainer>

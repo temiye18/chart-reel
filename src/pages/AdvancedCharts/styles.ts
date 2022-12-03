@@ -12,7 +12,6 @@ const FlexContainer = styled.div`
   @media (max-width: 559px) {
     padding: 0 4rem;
   }
-  padding: 0 4rem;
 `;
 
 export { Section, FlexContainer };
