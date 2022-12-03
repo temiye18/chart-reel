@@ -3,6 +3,7 @@ import Container from "../utilities/Container.styles";
 import Section from "./styles";
 import { MarketOverview } from "react-ts-tradingview-widgets";
 import { Button } from "../";
+import { AppRoutes } from "../../constants";
 import { mOTabs } from "../../constants";
 import "aos/dist/aos.css";
 const PopularChart = () => {
@@ -41,7 +42,9 @@ const PopularChart = () => {
         data-aos-mirror="true"
         data-aos-once="true"
       >
-        <Button className="view-all">View All</Button>
+        <Button url={AppRoutes.advanced.advanced} className="view-all">
+          View All
+        </Button>
       </div>
     </Section>
   );

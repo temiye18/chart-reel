@@ -17,6 +17,7 @@
   --text-width-large: 689px;
   --text-width-medium: 470px;
   --text-width-small: 350px;
+  --category-background: #3b3f4a;
 }
 body {
   color: var(--white);
@@ -24,4 +25,5 @@ body {
   background-color: var(--primary-color);
   font-size: 16px;
   font-weight: var(--inter-400);
+  overflow-x: hidden;
 }

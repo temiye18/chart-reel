@@ -6,3 +6,5 @@ export { default as Footer } from "./Footer";
 export { default as Navbar } from "./Navbar";
 export { default as SideBar } from "./SideBar";
 export { default as ChartHeader } from "./ChartHeader";
+export { default as CategoryHeader } from "./CategoryHeader";
+export { default as AdvancedList } from "./AdvancedList";

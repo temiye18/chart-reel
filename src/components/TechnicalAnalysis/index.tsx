@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../utilities/Container.styles";
 import Section from "./styles";
 import { Button } from "../";
+import { AppRoutes } from "../../constants";
 import analysis from "../../assets/analysis.png";
 import "aos/dist/aos.css";
 
@@ -26,7 +27,9 @@ const TechnicalAnalysis = () => {
               display ratings, made for easy viewing.
             </p>
             <div className="get-started-box">
-              <Button className="get-started">Get Started</Button>
+              <Button url={AppRoutes.advanced.advanced} className="get-started">
+                Get Started
+              </Button>
             </div>
           </div>
           <div className="t-item2">

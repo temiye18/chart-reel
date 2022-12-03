@@ -35,7 +35,7 @@ const navLinks: Nav[] = [
   {
     id: 6,
     name: "Advanced Charts",
-    url: AppRoutes.advanced,
+    url: AppRoutes.advanced.advanced,
   },
 ];
 

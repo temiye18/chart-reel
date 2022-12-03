@@ -7,7 +7,6 @@ import { useGlobalContext } from "../../store";
 
 const SideBar = () => {
   const { isOpen, closeSidebar, closeSidebarDelay } = useGlobalContext();
-  console.log("sidebar", isOpen);
   return (
     <Aside className={isOpen ? "show-sidebar" : ""}>
       <div className="close-box">

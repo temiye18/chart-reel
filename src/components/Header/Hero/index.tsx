@@ -1,6 +1,7 @@
 import React from "react";
 import HeroSection from "./styles";
 import { Button } from "../../";
+import { AppRoutes } from "../../../constants";
 import "aos/dist/aos.css";
 
 const Hero = () => {
@@ -22,7 +23,9 @@ const Hero = () => {
         data-aos-delay="1000"
         data-aos-once="true"
       >
-        <Button className="get-started">Get Started</Button>
+        <Button url={AppRoutes.advanced.advanced} className="get-started">
+          Get Started
+        </Button>
       </div>
     </HeroSection>
   );

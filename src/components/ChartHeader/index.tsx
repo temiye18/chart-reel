@@ -1,6 +1,7 @@
 import React from "react";
 import Parent from "./styles";
 import { Button } from "../";
+import { AppRoutes } from "../../constants";
 import "aos/dist/aos.css";
 
 const ChartHeader: React.FC<{ heading: string; text: string }> = ({
@@ -22,7 +23,9 @@ const ChartHeader: React.FC<{ heading: string; text: string }> = ({
         data-aos-delay="1000"
         data-aos-once="true"
       >
-        <Button className="btn">View Advanced Chart</Button>
+        <Button url={AppRoutes.advanced.advanced} className="btn">
+          View Advanced Chart
+        </Button>
       </div>
     </Parent>
   );
