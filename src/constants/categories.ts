@@ -1,5 +1,5 @@
 type Category = string[];
-const crypto: Category = [
+const digitalAsset: Category = [
   "bitcoin",
   "ethereum",
   "binance",
@@ -20,9 +20,6 @@ const crypto: Category = [
   "tezos",
   "harmony",
   "waves",
-];
-
-const forex: Category = [
   "audcad",
   "usdngn",
   "usdinr",
@@ -35,9 +32,6 @@ const forex: Category = [
   "usdchf",
   "usdhkd",
   "eurgbp",
-];
-
-const stocks: Category = [
   "apple-inc",
   "tesla-inc",
   "meta",
@@ -47,6 +41,14 @@ const stocks: Category = [
   "amazon",
   "alibaba-ltd",
 ];
+
+// const forex: Category = [
+
+// ];
+
+// const stocks: Category = [
+
+// ];
 
 const futures: Category = [
   "crude-oil",
@@ -59,4 +61,4 @@ const futures: Category = [
   "silver",
 ];
 
-export { crypto, forex, stocks, futures };
+export { digitalAsset, futures };

@@ -2,7 +2,16 @@ import React from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import GlobalStyle from "./base/globalStyles";
 import { AppRoutes } from "./constants";
-import { Home, Crypto, Forex, Stocks, Futures, AdvancedCharts } from "./pages";
+import {
+  Home,
+  Crypto,
+  Forex,
+  Stocks,
+  Futures,
+  AdvancedCharts,
+  AdvancedChartsDetails,
+  LearnMore,
+} from "./pages";
 import { Navbar, Footer, SideBar } from "./components";
 import useAnimate from "./hooks/useAnimate";
 
@@ -26,7 +35,16 @@ function App() {
           path={AppRoutes.advanced.advanced}
           element={<AdvancedCharts />}
         />
+        <Route
+          path={`${AppRoutes.advanced.advanced}/:slug`}
+          element={<AdvancedChartsDetails />}
+        />
+        <Route
+          path={`${AppRoutes.advanced.advanced}/learn-more/:slug`}
+          element={<LearnMore />}
+        />
       </Routes>
+
       <Footer />
     </>
   );

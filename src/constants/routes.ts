@@ -19,7 +19,7 @@ const routes: Routes = {
   futures: "/futures",
   advanced: {
     advanced: "/advanced-charts",
-    "learn-more": "advanced-charts/learn-more",
+    "learn-more": "/learn-more",
   },
 };
 

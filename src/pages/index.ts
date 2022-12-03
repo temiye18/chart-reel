@@ -4,3 +4,5 @@ export { default as Forex } from "./Forex";
 export { default as Stocks } from "./Stocks";
 export { default as Futures } from "./Futures";
 export { default as AdvancedCharts } from "./AdvancedCharts";
+export { default as AdvancedChartsDetails } from "./AdvancedChartsDetails";
+export { default as LearnMore } from "./LearnMore";

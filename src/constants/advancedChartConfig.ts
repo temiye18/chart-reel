@@ -4,12 +4,17 @@ interface Symbol {
   ta: string;
 }
 
-interface AdvancedCahrt {
+interface Futures {
   slug: string;
-  symbol: string | Symbol;
+  symbol: Symbol;
 }
 
-const advancedChartConfig: AdvancedCahrt[] = [
+interface AdvancedChart {
+  slug: string;
+  symbol: string;
+}
+
+const advancedChartConfig: AdvancedChart[] = [
   {
     slug: "bitcoin",
     symbol: "BITSTAMP:BTCUSD",
@@ -170,6 +175,9 @@ const advancedChartConfig: AdvancedCahrt[] = [
     slug: "alibaba-ltd",
     symbol: "NYSE   :BABA",
   },
+];
+
+export const futuresConfig: Futures[] = [
   {
     slug: "crude-oil",
     symbol: {
@@ -228,4 +236,5 @@ const advancedChartConfig: AdvancedCahrt[] = [
     },
   },
 ];
+
 export default advancedChartConfig;
