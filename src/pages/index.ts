@@ -6,3 +6,4 @@ export { default as Futures } from "./Futures";
 export { default as AdvancedCharts } from "./AdvancedCharts";
 export { default as AdvancedChartsDetails } from "./AdvancedChartsDetails";
 export { default as LearnMore } from "./LearnMore";
+export { default as NotFound } from "./NotFound";

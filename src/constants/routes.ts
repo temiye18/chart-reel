@@ -15,7 +15,7 @@ const routes: Routes = {
   home: "/",
   crypto: "/crypto",
   forex: "/forex",
-  stocks: "/stock",
+  stocks: "/stocks",
   futures: "/futures",
   advanced: {
     advanced: "/advanced-charts",

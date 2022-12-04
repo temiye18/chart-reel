@@ -11,6 +11,7 @@ import {
   AdvancedCharts,
   AdvancedChartsDetails,
   LearnMore,
+  NotFound,
 } from "./pages";
 import { Navbar, Footer, SideBar } from "./components";
 import useAnimate from "./hooks/useAnimate";
@@ -43,6 +44,7 @@ function App() {
           path={`${AppRoutes.advanced.advanced}/learn-more/:slug`}
           element={<LearnMore />}
         />
+        <Route path="*" element={<NotFound />} />
       </Routes>
 
       <Footer />
