@@ -1,7 +1,6 @@
 interface Symbol {
   tv: string[][];
-  sp: string;
-  ta: string;
+  spta: string;
 }
 
 interface Futures {
@@ -182,48 +181,42 @@ export const futuresConfig: Futures[] = [
     slug: "crude-oil",
     symbol: {
       tv: [["NYMEX:CL1!|12M"]],
-      sp: "NYMEX:CL1!",
-      ta: "NYMEX:CL1!",
+      spta: "NYMEX:CL1!",
     },
   },
   {
     slug: "natural-gas",
     symbol: {
       tv: [["NYMEX:NG1!|12M"]],
-      sp: "NYMEX:NG1!",
-      ta: "NYMEX:NG1!",
+      spta: "NYMEX:NG1!",
     },
   },
   {
     slug: "gasoline",
     symbol: {
       tv: [["NYMEX:RB1!|12M"]],
-      sp: "NYMEX:RB1!",
-      ta: "NYMEX:RB1!",
+      spta: "NYMEX:RB1!",
     },
   },
   {
     slug: "heating-oil",
     symbol: {
       tv: [["NYMEX:HO1!|12M"]],
-      sp: "NYMEX:HO1!",
-      ta: "NYMEX:HO1!",
+      spta: "NYMEX:HO1!",
     },
   },
   {
     slug: "ethanol",
     symbol: {
       tv: [["NYMEX:AEZ1!|12M"]],
-      sp: "NYMEX:AEZ1!",
-      ta: "NYMEX:AEZ1!",
+      spta: "NYMEX:AEZ1!",
     },
   },
   {
     slug: "gold",
     symbol: {
       tv: [["COMEX:GC1!|12M"]],
-      sp: "COMEX:GC1!",
-      ta: "COMEX:GC1!",
+      spta: "COMEX:GC1!",
     },
   },
 
@@ -231,8 +224,7 @@ export const futuresConfig: Futures[] = [
     slug: "silver",
     symbol: {
       tv: [["COMEX:si1!|12M"]],
-      sp: "COMEX:si1!",
-      ta: "COMEX:si1!",
+      spta: "COMEX:si1!",
     },
   },
 ];

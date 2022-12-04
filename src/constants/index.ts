@@ -4,3 +4,4 @@ export { default as navLinks } from "./navLinks";
 export { default as chartHeaders } from "./chartHeaders";
 export { default as advancedListData } from "./advancedListData";
 export { default as advancedChartConfig } from "./advancedChartConfig";
+export { default as learnMoreConfig } from "./LearnMoreConfig";

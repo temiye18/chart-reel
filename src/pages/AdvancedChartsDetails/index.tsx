@@ -74,7 +74,7 @@ const AdvancedChartsDetails = () => {
               width="100%"
               height={420}
               isTransparent={true}
-              symbol={futuresSymbol?.symbol.sp}
+              symbol={futuresSymbol?.symbol.spta}
             />
           </div>
         )}
@@ -89,7 +89,7 @@ const AdvancedChartsDetails = () => {
               height={450}
               isTransparent={true}
               colorTheme="dark"
-              symbol={futuresSymbol?.symbol.ta}
+              symbol={futuresSymbol?.symbol.spta}
             />
           </div>
         )}
