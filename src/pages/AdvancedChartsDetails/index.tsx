@@ -64,6 +64,7 @@ const AdvancedChartsDetails = () => {
               gridLineColor="rgba(240, 243, 250, 0.06)"
               container_id="tradingview_ade1c"
               scalePosition="right"
+              dateFormat="dd MMM 'yy"
             />
           </div>
         )}
